@@ -8,24 +8,37 @@
 
 int main()
 {
-	matrix m1( 12.34, John, Dogart, 65.45 ), m2(10, Merry, Berry, 34.25);
 	matrix m3;
+	matrix m1( 1, 2, 3, 4), m2(1, 2, 3, 4);
 
 	//get data from user
+	std::cout << "M1 Object: " << std::endl;
 	m1.getData(m1);
+	std::cout << "M2 Object: " << std::endl;
 	m2.getData(m2);
 
 
 	// funcion to print out
+	std::cout << "Prinint object M1: " << std::endl;
 	m1.printOut();
+	
+	std::cout << "Prinint object M2: " << std::endl;
 	m2.printOut();
+
 	//Overloading + operator
+	std::cout << "adding M3 = M1 + M2 " << std::endl;
 	m3 = m1 + m2;
 
+	std::cout << "Prinint object M3: " << std::endl;
+	m3.printOut();
+
+	std::cout << "multiplication m3 = m1 * m2" << std::endl;
+	
+	m3 = m1 * m2;
+
+	std::cout << "Prinint object M3: " << std::endl;
 	m3.printOut();
 
 	system("pause");
     return 0;
 }
-
-int employee_, std::string name_, std::string surname_, double rate_)
