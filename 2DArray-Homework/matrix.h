@@ -5,17 +5,13 @@
 class matrix
 {
 private:
-	double m[2][2];
+	double m[2][2] = { { 0, 0 },{ 0, 0 } };
 	
 
 public:
 	matrix()
 	{
-		m[0][0] = 0;
-		m[0][1] = 0;
-		m[1][1] = 0;
-		m[1][0] = 0;
-
+		m[2][2];
 	}
 	matrix(double One, double Two, double Three, double Four) : m{ 1,2,3,4 } 
 	{
