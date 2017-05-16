@@ -8,7 +8,7 @@
 
 int main()
 {
-	matrix m3;
+	matrix m3, m4;
 	matrix m1( 1, 2, 3, 4), m2(1, 2, 3, 4);
 
 	//get data from user
@@ -34,10 +34,10 @@ int main()
 
 	std::cout << "multiplication m3 = m1 * m2" << std::endl;
 	
-	m3 = m1 * m2;
+	m4 = m1 * m2;
 
 	std::cout << "Prinint object M3: " << std::endl;
-	m3.printOut();
+	m4.printOut();
 
 	system("pause");
     return 0;

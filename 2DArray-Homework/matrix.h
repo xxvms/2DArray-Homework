@@ -5,7 +5,7 @@
 class matrix
 {
 private:
-	double m[2][2] = { { 0, 0 },{ 0, 0 } };
+	double m[2][2] {  };
 	
 
 public:
